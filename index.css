@@ -1,0 +1,31 @@
+#movieDisplay {
+    padding: 10px 15px 10px 15px;
+    width: 700px;
+    display: none;
+    background-color: #295ba6;
+    color: white;
+}
+
+#header {
+    padding: 10px 15px 10px 15px;
+    width: 700px;
+    background-color: #6098ec;
+    color: white;
+}
+
+.textBox {
+    float: right;
+    width: 300px;
+}
+
+fieldset{
+    padding: 15px;
+    background-color: #467dcf;
+    border: 0px solid;
+    width: 700px;
+    font-size: 125%;
+}
+
+label{
+    color: white;
+}

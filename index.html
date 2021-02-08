@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 id="header">Movie Ratings:</h1>
+
+    <fieldset id="movieInfo">
+        <label for="titleIn">Movie Title:</label>
+        <input name="titleIn" id="titleIn" placeholder="Title" type="text" class="textBox"/>
+
+        <br /> <br />
+  
+        <label for="ratingIn">Movie Rating (From 1-5):</label>
+        <input name="ratingIn" id="ratingIn" placeholder="Rating" type="text" class="textBox"/>
+
+        <br /> <br />
+  
+        <input type="submit" value="Add Movie" onclick="myFunction()">
+        <input type="submit" value="Show Movies" onclick="showData()">
+  
+      </fieldset>
+
+<br />
+
+<div id="movieDisplay"> 
+    <h1>Movies and Their Ratings:</h1>
+    <ul id="movieList"></ul>
+</div>
+    
+    <script src="main.js"></script>
+    <script src="movie.js"></script>     
+
+</body>
+</html>
